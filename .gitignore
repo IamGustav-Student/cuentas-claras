@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Backend
+server/dist/
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+server/src/uploads/*
+!server/src/uploads/.gitkeep
+
+# Entornos
+.env
+.env.local
+
+# Sistema
+.DS_Store
+*.log
